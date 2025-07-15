@@ -1,0 +1,19 @@
+{
+  "name": "proyecto_sass_completo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "sass": "sass src/scss/main.scss dist/styles.css --no-source-map --style=compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  },
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}

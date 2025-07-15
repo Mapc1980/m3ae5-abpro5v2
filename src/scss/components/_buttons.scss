@@ -1,0 +1,7 @@
+@use "../abstracts" as abstracts;
+
+
+.btn-primary {
+  background-color: abstracts.$primary-color;
+  @include abstracts.transition();
+}

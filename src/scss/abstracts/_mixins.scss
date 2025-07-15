@@ -1,0 +1,24 @@
+@mixin transition($time: 0.3s) {
+  transition: all $time ease-in-out;
+}
+
+@mixin center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin hover-scale($scale: 1.05) {
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale($scale);
+  }
+}
+
+@mixin frosted-glass($color: rgba(212, 57, 57, 0.2)) {
+  background: $color;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
